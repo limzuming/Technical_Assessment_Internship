@@ -1,23 +1,23 @@
 {
   // Disable CodeLens (the small actionable hints above methods)
-  "editor.codeLens": false,
+  "editor.codeLens": true,
 
   // Disable inline (ghost text) completion
-  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.enabled": true,
 
   // Do not show suggestions automatically on trigger characters
-  "editor.suggestOnTriggerCharacters": false,
+  "editor.suggestOnTriggerCharacters": true,
 
   // Turn off quick suggestions while typing
   "editor.quickSuggestions": {
-    "other": false,
+    "other": true,
     "comments": false,
     "strings": false
   },
 
   // Disable parameter hints (the small tooltip showing method parameter info)
-  "editor.parameterHints.enabled": false,
+  "editor.parameterHints.enabled": true,
 
   // Disable hover tooltips if you want fewer hints (optional)
-  "editor.hover.enabled": false
+  "editor.hover.enabled": true
 }
