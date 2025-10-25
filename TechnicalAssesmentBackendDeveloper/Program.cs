@@ -3,7 +3,6 @@
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the Item Manager!");
-
         ItemManager manager = new ItemManager();
 
         // Part One: Fix the NullReferenceException
@@ -42,11 +41,11 @@ public class ItemManager
     }
 
     // Part Two: Implement the RemoveItem method
+    // TODO: Implement this method
     public void RemoveItem(string item)
     {
-        items.Remove(item);
+        Console.WriteLine("RemoveItem method is not implemented yet.");
     }
-
     public void ClearAllItems()
     {
         items = [];
