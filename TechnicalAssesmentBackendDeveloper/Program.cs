@@ -44,7 +44,7 @@ public class ItemManager
     // TODO: Implement this method
     public void RemoveItem(string item)
     {
-        Console.WriteLine("RemoveItem method is not implemented yet.");
+        throw new NotImplementedException("RemoveItem method is not implemented yet. Please remove this line and implement this method.");
     }
     public void ClearAllItems()
     {
